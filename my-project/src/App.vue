@@ -2,30 +2,20 @@
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 import HelloWorld from './components/HelloWorld.vue'
+import MainVue from './components/Main.vue';
+import FooterVue from './components/FooterVue.vue';
+import Header from './components/HeaderVue.vue';
+import HeaderVue from './components/HeaderVue.vue';
+import ListSchools from './components/ListSchools.vue';
 </script>
 
 <template>
+  <HeaderVue></HeaderVue>
   <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
+      <div id="map"  class="w-full"></div>
   </div>
-  <HelloWorld msg="Vite + Vue" />
+  <HelloWorld msg="Hi there"/>
+  <ListSchools></ListSchools>
+  <FooterVue />
 </template>
 
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
-</style>
