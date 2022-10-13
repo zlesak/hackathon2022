@@ -1,0 +1,1 @@
+https://services6.arcgis.com/ogJAiK65nXL1mXAW/arcgis/rest/services/Seznam_škol_a_školských_zařízení/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=json
